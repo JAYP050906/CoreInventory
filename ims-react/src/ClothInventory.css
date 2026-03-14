@@ -1,0 +1,74 @@
+/* Inventory page container */
+.inventory{
+text-align:center;
+padding:40px;
+color:white;
+}
+
+/* Page title */
+.inventory h2{
+margin-bottom:20px;
+font-size:30px;
+}
+
+/* Input fields */
+.inventory input{
+padding:10px;
+margin:8px;
+border:none;
+border-radius:6px;
+outline:none;
+font-size:14px;
+width:160px;
+}
+
+/* Buttons */
+.inventory button{
+padding:10px 18px;
+margin:10px 5px;
+border:none;
+border-radius:20px;
+background:#0072ff;
+color:white;
+cursor:pointer;
+font-size:14px;
+transition:0.3s;
+}
+
+/* Button hover effect */
+.inventory button:hover{
+background:#00c6ff;
+transform:scale(1.05);
+}
+
+/* Table style */
+.inventory table{
+margin:auto;
+margin-top:25px;
+border-collapse:collapse;
+width:70%;
+background:white;
+color:#333;
+border-radius:8px;
+overflow:hidden;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Table header */
+.inventory th{
+background:#0072ff;
+color:white;
+padding:12px;
+font-weight:bold;
+}
+
+/* Table cells */
+.inventory td{
+padding:10px;
+border-bottom:1px solid #ddd;
+}
+
+/* Row hover effect */
+.inventory tr:hover{
+background:#f4f4f4;
+}
